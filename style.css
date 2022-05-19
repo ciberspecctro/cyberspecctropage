@@ -36,7 +36,7 @@
     border-radius: 8px;
     font-size: 25px;
     text-align: center;
-    color: rgb(23, 23, 48);
+    color: rgb(98, 98, 161);
     width: 20%;
     
 
@@ -57,11 +57,12 @@
 
 a {
     text-decoration: none;
+    color: rgb(155, 71, 233);
 }
 #boton {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 #discord {
     display: inline-block;
@@ -75,3 +76,32 @@ a {
     width: 15%;
 
 }
+
+
+/*Juegos*/
+
+#titulos {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin: 20px;
+    justify-content: flex-start;
+    
+}
+
+#juego {
+    font-family: VT323;
+    color: rgb(197, 197, 231);
+    text-align: center;
+    font-size: 25px;
+
+}
+
+#juegolucky :hover {
+    font-family: VT323;
+    color: rgb(191, 31, 212);
+    text-align: center;
+    font-size: 25px;
+
+}
+
