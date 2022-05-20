@@ -97,6 +97,14 @@ a {
 
 }
 
+#juegolucky {
+    font-family: VT323;
+    color: rgb(197, 197, 231);
+    text-align: center;
+    font-size: 25px;
+    
+}
+
 #juegolucky :hover {
     font-family: VT323;
     color: rgb(191, 31, 212);
