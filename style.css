@@ -45,7 +45,7 @@
     overflow: hidden;
     border-right: .15em solid orange; 
     white-space: nowrap; 
-    margin: 0 auto; 
+    margin: 20px auto; 
     letter-spacing: .1em; 
     animation:blink-caret .5s step-end infinite;
   }
@@ -85,6 +85,7 @@
     background-color: rgb(5, 10, 20)  ;
     gap: 50px;
     padding: 5px;
+    height: 55px;
 }
 
 #inicio {
@@ -97,6 +98,7 @@
     text-align: center;
     color: rgb(248, 241, 241);
     width: 150px;
+    height: 55px;
     
 
 }
@@ -113,6 +115,8 @@
     color: rgb(248, 241, 241);
     text-align: center;
     font-size: 20px;
+    
+    
 }
 
 #texto-footer {
@@ -150,8 +154,8 @@ a {
     display: inline-block;
     background-color:rgb(5, 10, 20)  ;
     padding: 15px;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
     font-family: VT323;
     border-radius: 8px;
     font-size: 20px;
@@ -159,6 +163,13 @@ a {
     color: rgb(248, 241, 241);
     width: 15%;
 
+}
+
+#nav-bar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    
 }
 
 
@@ -223,7 +234,7 @@ a {
 
 #logo-portrait {
 
-    height: 250px;
+    height: 270px;
     width: 330px;
 
 
@@ -245,5 +256,21 @@ a {
         display: flex;
         justify-content: center;
     }
+}
+
+
+
+
+
+/*Information for a business web*/
+
+#info-text {
+    font-family: VT323;
+    color: rgb(248, 241, 241);
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 20px;
+    text-justify: inter-word;
 }
 
